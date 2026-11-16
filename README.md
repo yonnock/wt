@@ -32,7 +32,8 @@ You need Git and the [GitHub CLI](https://cli.github.com/).
 
 ```sh
 gh auth login
-brew install yonnock/tap/wt
+brew tap --custom-remote yungweng/tap https://github.com/yonnock/homebrew-tap
+brew install yungweng/tap/wt
 ```
 
 Homebrew also installs tab completion for Bash, Zsh, and Fish. Without
