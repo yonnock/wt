@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 license = "MIT"
 description = "Create isolated, ready-to-code Git worktrees"
-repository = "https://github.com/yungweng/wt"
+repository = "https://github.com/yonnock/wt"
 
 [[bin]]
 name = "wt"

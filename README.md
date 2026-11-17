@@ -32,6 +32,7 @@ You need Git and the [GitHub CLI](https://cli.github.com/).
 
 ```sh
 gh auth login
+brew tap --custom-remote yungweng/tap https://github.com/yonnock/homebrew-tap
 brew install yungweng/tap/wt
 ```
 
@@ -39,7 +40,7 @@ Homebrew also installs tab completion for Bash, Zsh, and Fish. Without
 Homebrew, install with Cargo (Rust 1.85 or newer):
 
 ```sh
-cargo install --git https://github.com/yungweng/wt
+cargo install --git https://github.com/yonnock/wt
 ```
 
 From a local checkout:
@@ -356,7 +357,7 @@ in a non-interactive environment.
 Install the companion skill to teach Claude Code and Codex when to use `wt`:
 
 ```sh
-npx --yes skills add yungweng/wt --skill wt --global \
+npx --yes skills add yonnock/wt --skill wt --global \
   --agent claude-code --agent codex --yes
 ```
 
